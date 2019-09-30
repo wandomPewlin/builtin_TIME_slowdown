@@ -8,3 +8,5 @@ There are two scenes in the repo. Both use `MultiMeshInstance` to animate 200K s
 ## This is probably not a bug
 
 If you play `with_TIME.tscn` then switch the active scene in your Godot editor to an empty one, the framerate would go back to 60 FPS. It seems like the slowdown is due to the extra work done to animate the spheres inside the editor. Even though this is probably not a major issue in production, I still wanted to put this observation out there; in hopes of saving other developers' precious time.
+
+This issue is actually [reported](https://github.com/godotengine/godot/issues/26082) already, but buried very deep and very hard to find.
