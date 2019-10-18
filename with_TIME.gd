@@ -7,6 +7,7 @@ func _ready():
 		$Spheres.multimesh.set_instance_transform(i, position)
 		$Spheres.multimesh.set_instance_custom_data(i, Color(randf(), randf(), randf(), randf()))
 
+
 var time = 0.0
 func _process(delta):
 	time += delta
